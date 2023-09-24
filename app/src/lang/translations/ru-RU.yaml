@@ -1725,7 +1725,7 @@ interfaces:
     recursive_only: Интерфейс просмотра дерева работает только для рекурсивных отношений.
   user:
     user: Пользователь
-    description: Выберите существующего пользователя directus
+    description: Выберите существующего пользователя
     select_mode: Режим Выбора
     modes:
       auto: Авто
@@ -1897,7 +1897,7 @@ displays:
     display_template_configure_notice: Вы можете настроить шаблон отображения после создания этого поля.
   user:
     user: Пользователь
-    description: Показать пользователя directus
+    description: Показать пользователя
     avatar: Аватар
     name: Название
     both: Оба

@@ -13,12 +13,12 @@ describe('noproto', () => {
 
 describe('parseJSON', () => {
 	it('Parses JSON strings', () => {
-		const result = parseJSON(`{"name": "Directus"}`);
-		expect(result).toEqual({ name: 'Directus' });
+		const result = parseJSON(`{"name": "System"}`);
+		expect(result).toEqual({ name: 'System' });
 	});
 
 	it('Ignores __proto__ properties', () => {
-		const result = parseJSON(`{"name": "Directus", "__proto__": "malicious" }`);
-		expect(result).toEqual({ name: 'Directus' });
+		const result = parseJSON(`{"name": "System", "__proto__": "malicious" }`);
+		expect(result).toEqual({ name: 'System' });
 	});
 });

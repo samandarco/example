@@ -27,5 +27,5 @@ export async function awaitDirectusConnection(port: number): Promise<void | null
 		}
 	}
 
-	throw new Error(`Couldn't connect to Directus`);
+	throw new Error(`Couldn't connect to System`);
 }

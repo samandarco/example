@@ -19,7 +19,7 @@ beforeEach(() => {
 
 const mockSettings: Settings = {
 	id: 1,
-	project_name: 'Directus',
+	project_name: 'System',
 	project_url: null,
 	project_color: null,
 	project_logo: null,
