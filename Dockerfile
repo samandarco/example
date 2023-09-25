@@ -7,6 +7,7 @@ FROM node:18-alpine AS builder
 WORKDIR /directus
 
 ARG TARGETPLATFORM
+ARG PORT
 ARG RAILWAY_ENVIRONMENT
 ARG DB_CLIENT
 ARG DB_HOST
@@ -67,7 +68,7 @@ USER node
 
 WORKDIR /directus
 
-EXPOSE 8055
+EXPOSE $PORT
 
 ENV \
 	EXTENSIONS_PATH="/directus/extensions" \
