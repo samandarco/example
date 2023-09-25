@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: Directus
+  title: System
   description: A real-time API and App dashboard for managing SQL database content.
   contact:
     email: contact@directus.io

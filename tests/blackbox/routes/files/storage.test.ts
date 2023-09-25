@@ -12,8 +12,8 @@ const imageFile = {
 	name: 'directus.png',
 	type: 'image/png',
 	filesize: '7136',
-	title: 'Directus',
-	description: 'The Directus Logo',
+	title: 'System',
+	description: 'The System Logo',
 };
 
 const imageFilePath = path.join(...assetsDirectory, imageFile.name);

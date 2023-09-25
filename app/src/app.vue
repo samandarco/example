@@ -48,11 +48,11 @@ const brandStyle = computed(() => {
 
 useHead({
 	titleTemplate: computed((title?: string) => {
-		const projectName = serverStore.info?.project?.project_name ?? 'Directus';
+		const projectName = serverStore.info?.project?.project_name ?? 'System';
 		return !title ? projectName : `${title} · ${projectName}`;
 	}),
 	meta: computed(() => {
-		const content = serverStore.info?.project?.project_color ?? '#6644ff';
+		const content = serverStore.info?.project?.project_color ?? '#F26601';
 
 		return [
 			{

@@ -18,7 +18,7 @@ beforeEach(() => {
 
 const mockServerInfo: Info = {
 	project: {
-		project_name: 'Directus',
+		project_name: 'System',
 		project_descriptor: null,
 		project_logo: null,
 		project_color: null,
@@ -34,7 +34,7 @@ const mockAuthProviders: Auth['providers'] = [
 	{
 		driver: 'oauth2',
 		name: 'directus',
-		label: 'Directus',
+		label: 'System',
 	},
 ];
 
