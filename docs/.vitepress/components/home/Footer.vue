@@ -1,51 +1,7 @@
 <template>
 	<footer>
 		<div class="container">
-			<div class="content">
-				<Logo class="logo" />
 
-				<ul class="social">
-					<li>
-						<SocialIcon url="https://www.linkedin.com/company/directus-io" icon="linkedin" />
-					</li>
-					<li>
-						<SocialIcon url="https://hub.docker.com/r/directus/directus" icon="docker" />
-					</li>
-					<li>
-						<SocialIcon url="https://www.npmjs.com/package/directus" icon="npm" />
-					</li>
-					<li>
-						<SocialIcon url="https://www.youtube.com/c/DirectusVideos" icon="youtube" />
-					</li>
-					<li>
-						<SocialIcon url="https://directus.chat" icon="discord" />
-					</li>
-					<li>
-						<SocialIcon url="https://twitter.com/directus" icon="twitter" />
-					</li>
-					<li>
-						<SocialIcon url="https://github.com/directus" icon="github" />
-					</li>
-				</ul>
-
-				<ul class="links">
-					<li>
-						<a href="https://github.com/directus/directus/blob/main/license" target="_blank" rel="noreferrer noopener">
-							License
-						</a>
-					</li>
-					<li><a href="https://directus.io/terms/" target="_blank" rel="noreferrer noopener">Terms</a></li>
-					<li><a href="https://directus.io/privacy/" target="_blank" rel="noreferrer noopener">Privacy</a></li>
-				</ul>
-			</div>
-
-			<Divider />
-
-			<small>
-				<a href="https://monospace.io/" target="_blank" rel="noreferrer noopener">
-					&copy; {{ currentYear }} Monospace Inc
-				</a>
-			</small>
 		</div>
 	</footer>
 </template>
