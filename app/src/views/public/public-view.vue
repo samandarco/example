@@ -14,7 +14,7 @@
 					class="logo"
 					:style="info?.project?.project_color ? { backgroundColor: info.project.project_color } : {}"
 				>
-					<img src="https://iizzqaxypjhutdaferxk.supabase.co/storage/v1/object/public/main/cool-kids-icon.jpeg" alt="System" class="system-logo" />
+					<img src="/admin/logo-coolkids.jpeg" alt="System" class="system-logo" />
 				</div>
 				<div class="title">
 					<h1 class="type-title">{{ info?.project?.project_name }}</h1>
