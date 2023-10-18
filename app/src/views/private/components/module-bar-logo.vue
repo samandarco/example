@@ -14,7 +14,9 @@
 			</transition>
 			<img class="custom-logo" :src="customLogoPath" alt="Project Logo" />
 		</template>
-		<div v-else class="logo" :class="{ running: showLoader }" @animationiteration="stopSpinnerIfQueueIsEmpty" />
+
+		<img v-else src="../../../assets/logo-coolkids.jpeg" alt="System" class="logo" />
+		<!-- <div v-else class="logo" :class="{ running: showLoader }" @animationiteration="stopSpinnerIfQueueIsEmpty" /> -->
 	</component>
 </template>
 
