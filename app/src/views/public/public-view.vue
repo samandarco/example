@@ -14,7 +14,7 @@
 					class="logo"
 					:style="info?.project?.project_color ? { backgroundColor: info.project.project_color } : {}"
 				>
-					<img src="/admin/logo-coolkids.jpeg" alt="System" class="system-logo" />
+					<img src="../../assets/logo-coolkids.jpeg" alt="System" class="system-logo" />
 				</div>
 				<div class="title">
 					<h1 class="type-title">{{ info?.project?.project_name }}</h1>
